@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: white;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  background-color: #222;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  height: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 2em;
+}
+
+.main {
+  padding-top: 1px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-left: 250px;
+  background-color: rgb(255, 0, 0);
+  height: 100vh;
+}
+
+nav {
+  padding: 1.5em;
+  font-weight: bold;
+  float: left;
+  width: 220px;
+  text-decoration: none;
+  background: linear-gradient(to right, #000000, #0077dd);
+  min-height: 98vh;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.25em;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-bottom: 0.75em;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 0px;
+  display: block;
+  padding: 0.35em 0.25em;
+}
+
+.nav-button {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0.45em 0.6em;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  white-space: nowrap; /* keep label on one line and stretch button */
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.nav-button:active {
+  background-color: rgba(255, 255, 255, 0.22);
+  transform: translateY(1px);
+}
+
+nav ul li {
+  margin-bottom: 0.6em;
+}
+
+@media (max-width: 700px) {
+  nav {
+    float: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .main {
+    margin-left: 0;
+    padding-left: 1em;
+  }
+  .nav-button {
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+.qb-bg {
+  background-image: url("https://www.pikpng.com/pngl/b/125-1254313_baltimore-ravens-logo-clipart.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 1000px auto;
+  background-attachment: fixed;
+}
+
+.rb-bg {
+  background-image: url("https://www.pikpng.com/pngl/b/125-1254313_baltimore-ravens-logo-clipart.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 1000px auto;
+  background-attachment: fixed;
+}
+
+.wr-bg {
+  background-image: url("https://mcdn.wallpapersafari.com/medium/95/56/lF9fTb.jpg");
+  background-size: 1700px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.Def-bg {
+  background-image: url("https://wallpapers.com/images/high/steelers-logo-m6jhv6a4ignk68il.jpg");
+  background-size: 2000px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.te-bg {
+  background-image: url("https://wallpapers.com/images/high/steelers-logo-m6jhv6a4ignk68il.jpg");
+  background-size: 2000px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.intro-bg {
+  background-image: url("https://1000logos.net/wp-content/uploads/2017/05/NFL-logo.png"),
+    url("https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/pictures/picture-4729464aff001716fe1efb0230f3626d_673f54a53efa7.jpg?1732203685");
+  background-size: 1100px auto, 500px auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, right bottom;
+  background-attachment: fixed, fixed;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  bottom: 0;
+  font-size: 1em;
+  position: relative;
+  text-align: center;
+}
+
+.imgcontainer img {
+  width: 40%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.imgcontainer2 img {
+  width: 60%;
+  max-width: 900px;
+  height: auto;
+  float: right;
+  margin-top: -50.5em;
+}
+
+.text {
+  margin-left: 3px;
+  font-size: 1.5em;
+}
